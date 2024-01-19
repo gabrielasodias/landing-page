@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -36,21 +37,6 @@ h3 {
     text-transform: uppercase;
 }
 
-h4 {
-    font-size: 4.5rem;
-    text-transform: uppercase;
-}
-
-h5 {
-    font-size: 4rem;
-    text-transform: uppercase;
-}
-
-h6 {
-    font-size: 3.5rem;
-    text-transform: uppercase;
-}
-
 a {
     text-decoration: none;
 }
@@ -58,3 +44,4 @@ a {
 p {
     margin-bottom: 3rem;
 }
+
