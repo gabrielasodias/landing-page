@@ -19,7 +19,7 @@
 }
 
 .top3-content {
-    max-width: 64rem;
+    max-width: 640px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -37,11 +37,11 @@
 }
 
 .grid-main1 {
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
 
 .grid-description{
-    padding-bottom: 5rem;
+    padding-bottom: 50px;
     font-style: italic;
 }
 
@@ -53,27 +53,27 @@
 }
 
 .grid h3 {
-    font-size: 3rem;
+    font-size: 30px;
     position: relative;
-    padding-left: 5rem;
-    padding-bottom: 2rem;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .grid h3::before {
     counter-increment: grid-counter;
     content: counter(grid-counter);
     position: absolute;
-    font-size: 8rem;
+    font-size: 80px;
     font-style: italic;
-    top: -4rem;
-    left: -2rem;
+    top: -40px;
+    left: -20px;
     transform: rotate(3deg);
 }
 
 .gallery-img {
     width: 100%;
-    max-width: 36rem;
-    max-height: 36rem;
+    max-width: 360px;
+    max-height: 360px;
     overflow: hidden;
 }
 
@@ -86,11 +86,11 @@
 }
 
 .footer-gallery {
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 
 .footer-tools {
-    font-size: 1.7rem;
+    font-size: 17px;
 }
 
 .contact-form {
@@ -107,26 +107,26 @@
   
 .form-grid legend {
     font-style: italic;
-    font-size: 1.6rem; 
-    margin-bottom: 3rem;
+    font-size: 16px; 
+    margin-bottom: 30px;
 }
   
 .form-group {
-    flex: 1 1 32rem;
+    flex: 1 1 320px;
 }
   
 .form-group label {
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 10px;
 }
   
 .form-group input,
 .form-group textarea {
     border: none;
     background: var(--white-color);
-    padding: 1.5rem 2rem;
+    padding: 15px 20px;
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 25px;
     outline: none;
 }
   
@@ -136,11 +136,11 @@
 }
   
 .form-group button {
-    border: 0.5rem solid var(--white-color);
+    border: 5px solid var(--white-color);
     background: none;
     color: var(--white-color);
-    padding: 1.5rem 2rem;
-    font-size: 3rem;
+    padding: 15px 20px;
+    font-size: 30px;
     cursor: pointer;
     transition: all 300ms ease-in-out;
 }
@@ -156,7 +156,7 @@
   
 .footer {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 16px;
 }
   
 .footer a {
@@ -169,7 +169,7 @@
   
 .footer p {
     margin: 0;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .close-menu {
@@ -178,21 +178,21 @@
   
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 20px;
+    right: 20px;
     background: var(--white-color);
-    width: 5rem;
-    height: 5rem;
+    width: 50px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     color: var(--primary-color);
     transform: rotate(-90deg);
-    border: 0.1rem solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
   
-@media (max-width: 80rem) {
+@media (max-width: 800px) {
     intro-content, .grid {
     grid-template-columns: 1fr;
     }
@@ -252,16 +252,16 @@
         content: '☰';
         position: fixed;
         z-index: 2;
-        top: 2rem;
-        right: 2rem;
+        top: 20px;
+        right: 20px;
         background: var(--primary-color);
         color: var(--white-color);
-        font-size: 3rem;
-        line-height: 3rem;
-        width: 3rem;
-        height: 3rem;
+        font-size: 30px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
         text-align: center;
-        padding: 0.5rem;
+        padding: 5px;
         cursor: pointer;
     }
     
